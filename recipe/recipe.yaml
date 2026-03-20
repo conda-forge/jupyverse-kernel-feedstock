@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.0"
+  version: "0.1.1"
 
 package:
   name: jupyverse-kernel
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/j/jupyverse-kernel/jupyverse_kernel-${{ version }}.tar.gz
-    sha256: 015ae3f8e0359e1bb01819c3729395b666f599ccba5f0ba39b1be096192f57bf
+    sha256: 6a1e2caa47ab1506e2e9530bc8d6ce43f74353f923ba81682d710c8046dac24b
 
 build:
   noarch: python
